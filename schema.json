@@ -1,0 +1,95 @@
+{
+    "version": "1.0.0",
+    "componentsMap": [],
+    "componentsTree": [
+        {
+            "componentName": "Page",
+            "props": {
+                "class": "Page"
+            },
+            "children": [
+                {
+                    "componentName": "div",
+                    "props": {
+                        "class": "finance-frame"
+                    },
+                    "children": [
+                        {
+                            "componentName": "div",
+                            "props": {
+                                "class": "finance-frame"
+                            },
+                            "children": [
+                                {
+                                    "componentName": "div",
+                                    "props": {
+                                        "class": "interaction-default-disabl"
+                                    },
+                                    "children": [
+                                        {
+                                            "componentName": "span",
+                                            "props": {
+                                                "class": "finance-span",
+                                                "style": {
+                                                    "color": "rgba(25, 25, 25, 1)",
+                                                    "font-weight": "normal",
+                                                    "font-size": "14px"
+                                                }
+                                            },
+                                            "children": "刷新"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "componentName": "div",
+                                    "props": {
+                                        "class": "button"
+                                    },
+                                    "children": [
+                                        {
+                                            "componentName": "span",
+                                            "props": {
+                                                "class": "finance-span",
+                                                "style": {
+                                                    "color": "rgba(25, 25, 25, 1)",
+                                                    "font-weight": "normal",
+                                                    "font-size": "14px"
+                                                }
+                                            },
+                                            "children": "删除"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "componentName": "div",
+                                    "props": {
+                                        "class": "button-1"
+                                    },
+                                    "children": [
+                                        {
+                                            "componentName": "span",
+                                            "props": {
+                                                "class": "finance-span",
+                                                "style": {
+                                                    "color": "rgba(25, 25, 25, 1)",
+                                                    "font-weight": "normal",
+                                                    "font-size": "14px"
+                                                }
+                                            },
+                                            "children": "新建"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "iconsMap": [],
+            "css": ".Page { width: 328px;margin: auto;\n>.finance-frame { width: 328px;height: 147px;background-color: rgba(255, 255, 255, 1);display: flex;flex-direction: row;justify-content: center;\n>.finance-frame { width: 280px;height: 32px;margin-top: 42px;\n>.interaction-default-disabl { width: 88px;padding-left: 16px;padding-right: 16px;padding-top: 5px;padding-bottom: 5px;height: 32px;border-radius: 4px;border: 1px solid rgba(201, 201, 201, 1);background-color: rgba(255, 255, 255, 1);\n>.finance-span { width: 28px;font-size: 14px;line-height: 22px;height: 22px;color: rgba(25, 25, 25, 1);overflow: hidden;\n } };\n>.button { width: 88px;padding-left: 16px;padding-right: 16px;padding-top: 5px;padding-bottom: 5px;height: 32px;border-radius: 4px;border: 1px solid rgba(201, 201, 201, 1);background-color: rgba(255, 255, 255, 1);\n>.finance-span { width: 28px;font-size: 14px;line-height: 22px;height: 22px;color: rgba(25, 25, 25, 1);overflow: hidden;\n } };\n>.button-1 { width: 88px;padding-left: 16px;padding-right: 16px;padding-top: 5px;padding-bottom: 5px;height: 32px;border-radius: 4px;border: 1px solid rgba(201, 201, 201, 1);background-color: rgba(255, 255, 255, 1);\n>.finance-span { width: 28px;font-size: 14px;line-height: 22px;height: 22px;color: rgba(25, 25, 25, 1);overflow: hidden;\n } } } } }",
+            "state": {},
+            "methods": {},
+            "dependencies": []
+        }
+    ]
+}
